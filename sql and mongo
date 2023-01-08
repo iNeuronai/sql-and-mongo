@@ -225,3 +225,23 @@ many_data = [{"class name " : "full stack data science 2.0 " ,
 }]
 
 coll.insert_many(many_data)
+
+
+
+data1 = {"_id " : "sudhanshu " ,
+        "topic name " : "mongo db nosql ",
+        "todays date ": "8th jan 2023",
+         "todays task" : "mysql based task",
+         "todays conficuratioin" : ["mongo atlas ", "mysql workbench" , "mongo compass"]}
+         
+         
+
+   coll.insert_one(data1)   
+   
+   
+   
+   
+ 
+         
+         
+         
